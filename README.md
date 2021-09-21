@@ -1,20 +1,20 @@
-# Casino-sovellus - OTP1&2 / R02 / K2021
+# Casino application - OTP1 & 2 / R02 / K2021
 
-## Kehitysympäristö
-Projekti on rakennettu Javalla maven projektina.
+## Development environment
+The project was built in Java as a mave project.
 ### IDE
-Sovelluskehittimenä on käytetty IntelliJ IDEAa.
+IntelliJ IDEA has been used as the application developer.
 
-### Tietokanta
-Tietokanta on toteutettu Metropolian educloud-palvelimelle asennetulla MariaDB tietokannalla.
+### Database
+The database is implemented with the MariaDB database installed on Metropolia's educloud server.
 
-### Jatkuvan integroinnin työkalu
-Projektissa on käytetty Jenkinsiä jatkuvan testaamisen ja -integroinnin työkaluna. 
+### Continuous integration tool
+The project has used Jenkins as a tool for continuous testing and integration.
 
-## Asennusohje
-Projekti ei toimi vielä ilman kehitysympäristöä. Suorittaaksesi sovelluksen, seuraa allaolevia ohjeita.
+## Installation instructions
+The project will not work without a development environment yet. To run the application, follow the instructions below.
 
-1. Lataa tämä git-repositorio
-2. Avaa ladattu kansio jollain mavenia tukevalla IDEllä
-3. Synkronoi maven projekti ladataksesi kaikki riippuvuudet
-4. Suorita main.java 
+1. Download this git repository
+2. Open the downloaded folder with an IDE that supports maven
+3. Synchronize the mave project to load all dependencies
+4. Run main.java
